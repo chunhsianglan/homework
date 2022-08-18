@@ -1,0 +1,280 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+去除format
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*code start from here*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans+TC&family=Poppins:wght@100&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+.wrap{
+    font-family: 'Noto Sans Traditional Chinese',Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-social{
+    display: flex;
+    justify-content: right;
+    height: 27px;
+    padding: 5px 10px;
+    background-color: #f6f6f6;
+}
+
+.nav-social a {
+    text-decoration: none;
+}
+
+.nav-social a:hover {
+    color: red;
+}
+
+.icon {
+    
+    float: left;
+
+}
+
+.fb, .tw{
+    display: inline;
+    font-size: 14px;
+    float: left;
+}
+
+.fb a {
+    color: #4460a0;
+}
+
+.tw a {
+    color:#83d3f1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header li {
+    display: inline;
+    font-size: 14px;
+    padding:12px 20px;
+    box-sizing: border-box;
+    
+}
+
+.header li a{
+    color: #22d3a7;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header li a:hover{
+    background-color: yellow;
+}
+
+.banner {
+    position: relative;
+}
+
+.bck-banner {
+    position: relative;
+}
+
+.slogan {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 130px;
+    left: 50px;
+}
+
+.course {
+    margin: 0 auto;
+}
+
+.course-item {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.item {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 310px;
+    height: 330px;
+    text-align: center;
+    border-left: 0.5px solid #D9D9D9;
+    border-right: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    box-shadow: 0 2px 2px #BFBFBF;
+}
+
+.item h3 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.item p {
+    padding: 5px 15px 15px 15px;
+    line-height: 1.5;
+    
+}
+
+
+.item-jquery {
+    margin-left: 20px;
+    line-height: 1.2;
+    list-style-type: disc;
+    text-align: left;
+    padding: 0 15px 15px 15px;
+}
+
+.course-table h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+table {
+    width: 840px;
+    margin: 0 auto;
+    
+}
+
+th, td {
+    padding-top: 8px;
+    padding-bottom:  10px;
+    padding-left: 20px;
+    text-align: left;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    
+}
+
+th {
+    font-weight: bold;
+    background: #f7f7f7;
+}
+
+.font-color {
+    color: #00a67d;
+}
+
+.contact-form {
+    margin-top: 50px;
+    height: 400px;
+    background: linear-gradient(#00644b,#009872);
+    color: white;
+}
+
+.contact-form p {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+
+}
+
+.form-content {
+ display: flex;
+ justify-content: space-around;
+ padding: 0 25px 25px 20px;
+ 
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 460px;
+    height: 32px;
+    border-radius: 2px;
+    border: none;
+}
+
+input[type="submit"] {
+    display: block;
+    float: right;
+    width: 70px;
+    background-color: #00cc99;
+    color: #fff;   
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 18px 30px 18px;
+}
+
+.contact-info li{
+    line-height: 1.5;
+}
+/*
+.banner h1{
+    
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-size: 30px;
+}
+.banner h2{
+    color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 180px;
+    font-size: 30px;
+}
+*/
