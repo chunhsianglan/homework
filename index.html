@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="homework.ico">
+    <meta name="description" content="六角學院HTML,CSS網頁教學課程">
+    <meta name="author" content="Lan">
+
+    <meta property="og:title" content="六角學院">
+    <meta property="og:image" content="https://www.facebook.com/hexschool/">
+    <meta property="og:description" content="六角學院-打破影音課程售後不理，我們在線上等著你。">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,12 +20,12 @@
     <div class="nav">
         <div class="nav-social">
             <ul class="social-media">
-                <li class="fb"><img class="icon" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png"><a href="#" target="_blank">&nbsp粉絲團</a> |&nbsp </li>
-                <li class="tw"><img img class="icon" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png"><a href="#" target="_blank">&nbsp追隨我們</a></li>
+                <li class="fb"><img class="icon" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/facebookIcon.png" alt="fb logo"><a href="#" target="_blank">&nbsp粉絲團</a> |&nbsp </li>
+                <li class="tw"><img img class="icon" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/twitterIcon.png" alt="twitter logo"><a href="#" target="_blank">&nbsp追隨我們</a></li>
             </ul>
         </div>
         <div class="header">
-            <img class="logo" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png">
+            <img class="logo" alt="hex logo" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png">
             <ul class="menu">
                 <li><a href="#" target="_blank">首頁</a></li>
                 <li><a href="#" target="_blank">產品介紹</a></li>
@@ -28,26 +36,27 @@
     </div>
     <div class="content">
         <div class="banner">
-            <img class="bck-banner" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png">
+            <img class="bck-banner" alt="banner" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png">
             <div class="slogan">
             <h1>六角學院</h1>
             <h2>讓您奠定良好的前端基礎</h2>
             </div>
+            <div class="color-block"></div>
         </div>
         <div class="course">
             <ul class="course-item">
                 <li class="item">
-                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png">
+                    <img alt="logo" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/html.png">
                     <h3>HTML基礎教學</h3>
                     <p>主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端</p>
                 </li>
                 <li class="item">
-                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png">
+                    <img alt="logo" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/jQuery.png">
                     <h3>響應式網站設計</h3>
                     <p>主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端主流前端</p>
                 </li>
                 <li class="item">
-                    <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png">
+                    <img alt="logo" src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/rwd.png">
                     <h3>jQuery 實戰教學</h3>
                     <ul class="item-jquery">
                         <li style="list-style-type: none;">本課程有以下特色</li>
@@ -118,13 +127,13 @@
                 rows="15"></textarea>
                 </div>
                 <div class="text-info">
-                <label for="fullName">姓名</label><br>
-                <input type="text" name="fullName" placeholder="六角講師"><br>
-                <label for="mobile">電話</label><br>
-                <input type="number" name="mobile" placeholder="0988222333"><br>
-                <label for="mailbox">信箱</label><br>
-                <input type="mail" name="mailbox" placeholder="123@gmail.com"><br>
-                <input type="submit" value="送出">
+                <label for="fullName">姓名</label>
+                <input type="text" name="fullName" placeholder="六角講師">
+                <label for="mobile">電話</label>
+                <input type="number" name="mobile" placeholder="0988222333">
+                <label for="mailbox">信箱</label>
+                <input type="email" name="mailbox" placeholder="123@gmail.com">
+                <input type="submit" class="submit-button" value="送出">
 
                 </div>
             </form>

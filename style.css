@@ -130,12 +130,27 @@ table {
 }
 
 .slogan {
+    display: block;
     position: absolute;
     color: #fff;
     font-size: 30px;
     top: 130px;
     left: 50px;
 }
+
+
+
+.color-block {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(109, 125, 124, 0.2);
+    position: absolute;
+    top: 110px;
+    height: 100px;
+    
+}
+
+
 
 .course {
     margin: 0 auto;
@@ -151,7 +166,7 @@ table {
     margin-top: 50px;
     margin-bottom: 30px;
     width: 310px;
-    height: 330px;
+    
     text-align: center;
     border-left: 0.5px solid #D9D9D9;
     border-right: 0.5px solid #D9D9D9;
@@ -237,6 +252,7 @@ th {
 }
 
 input {
+    display: block;
     margin-top: 5px;
     margin-bottom: 10px;
     width: 460px;
@@ -245,12 +261,19 @@ input {
     border: none;
 }
 
-input[type="submit"] {
+.submit-button {
     display: block;
+    cursor: pointer;
     float: right;
     width: 70px;
     background-color: #00cc99;
     color: #fff;   
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    font-weight: bold;
+    color: #00cc99;
 }
 
 .footer {
